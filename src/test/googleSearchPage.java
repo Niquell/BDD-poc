@@ -6,9 +6,8 @@ public class googleSearchPage {
 
   public static void main(String[] args) {
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
-    googleSearchPage.getGoogleDefinition("Padrão de Projeto");
+    googleSearchPage.getGoogleDefinition("Qualquer coisa");
 
-//    googleSearchPage.close();
+    googleSearchPage.close();
   }
 }
-
